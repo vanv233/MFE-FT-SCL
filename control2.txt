@@ -1,0 +1,15 @@
+#define nt
+100
+#define dt (please follow CFL criterion)
+0.00001
+#dump data every this timesteps
+10
+#define density viscosity
+1.0	0.01
+# define scale factor in the new theory
+0.01
+# 0 = USE new theory / 1 = SKIP new theory, U got solution from N-S equation 
+0
+
+
+

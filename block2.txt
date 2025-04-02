@@ -1,0 +1,18 @@
+#define number block / buffer zone size (unused)
+1 1
+#define nx ny at block 1-nb
+50 50
+#define X domain:	Start	End
+0.0	1.0
+#define Y domain:	Start	End
+0.0	1.0
+#id	direction type 	link 	wind	u	v
+1	w	B	xx	X	0.0	0.0
+2	e	B	xx	X	0.0	0.0 
+3	s	B	xx	X	0.0	0.0 
+4	n	B	xx	X	1.0	0.0
+#id	direction type 	link 	wind	p
+1	w	B	xx	X	0.0
+2	e	B	xx	X	0.0
+3	s	B	xx	X	0.0
+4	n	B	xx	X	0.0
